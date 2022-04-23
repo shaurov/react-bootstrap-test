@@ -1,0 +1,36 @@
+.navbar-toggler {
+  padding: 0rem;
+  border: 0rem solid transparent;
+}
+
+.navbar-expand-lg {
+  .navbar-nav {
+    .nav-link {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      &:last-child {
+        padding-right: 0rem;
+      }
+    }
+  }
+}
+
+.collapse.show {
+  min-height: calc(100vh - 4rem);
+  padding-top: 1rem;
+}
+
+section {
+  display: block;
+}
+
+.section {
+  padding: 3rem 0rem;
+}
+
+.btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}

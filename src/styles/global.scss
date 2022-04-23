@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/functions";
+
+// Override default variables before the import
+
+// Color variables
+$blue: blue;
+$lightblue: lightblue;
+$white: white;
+$primary: $blue;
+$secondary: $lightblue;
+$light: $white;
+
+// Link variables
+$link-color: $primary;
+$link-decoration: none;
+$link-shade-percentage: 20%;
+$link-hover-color: shift-color($link-color, $link-shade-percentage);
+
+// Nav variables
+$nav-link-color: $link-color;
+$nav-link-hover-color: $link-hover-color;
+
+// Navbar variables
+$navbar-light-color: $nav-link-color;
+$navbar-light-hover-color: $nav-link-hover-color;
+$navbar-light-active-color: $nav-link-hover-color;
+
+// Borders
+$border-width: 0.125rem;
+$enable-rounded: false;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
